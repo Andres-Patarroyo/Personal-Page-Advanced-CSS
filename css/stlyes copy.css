@@ -1,31 +1,34 @@
-/* .header { 
-  background-color: #11999e;
+/* 
+INCORRECT SOLUTION TO POSIONING LESSON 47
 
+.top-container { 
+  background-color: #11999e;
+  /*  
   height: 200px;
   width: 200px;
   margin: 0;
-}*/
-.top-container {
-  background-color: red;
+}
+.second-container {
+  background-color: yellow;
   height: 200px;
   width: 200px;
-  position: absolute;
-  left: 400px;
-  top: 400px;
+  position: relative;
+  left: 200px;
 }
 .mid-container {
   background-color: blue;
   height: 200px;
   width: 200px;
-  position: absolute;
-  left: 200px;
-  top: 200px;
+  position: relative;
+  bottom: 200px;
 }
 .bot-container {
-  background-color: yellow;
+  background-color: red;
   height: 200px;
   width: 200px;
-  position: absolute;
+  position: relative;
+  bottom: 400px;
+  left: 400px;
 }
 body {
   margin-top: 0px;
@@ -44,3 +47,4 @@ p {
 .dev {
   text-decoration: underline;
 }
+*/
