@@ -1,44 +1,36 @@
-/* .header { 
-  background-color: #11999e;
+/* the absolute position property refers to the postition relative to the parent, in this case the body. However it isnt always necessarily 
+the body, ie. if one of the squares were within a parent container/square, the absolute element will now be the child to the parent square.
 
-  height: 200px;
-  width: 200px;
-  margin: 0;
-}*/
+this is useful when trying to fine-tune the position of an element, as you can use both absolute and relative positioning to accurately 
+display your element*/
+
+.header {
+  background-color: #11999e;
+}
 .top-container {
   background-color: red;
   height: 200px;
   width: 200px;
-  position: absolute;
-  left: 400px;
-  top: 400px;
 }
 .mid-container {
   background-color: blue;
   height: 200px;
   width: 200px;
-  position: absolute;
-  left: 200px;
-  top: 200px;
 }
 .bot-container {
   background-color: yellow;
   height: 200px;
   width: 200px;
-  position: absolute;
 }
 body {
-  margin-top: 0px;
-  margin-left: 0px;
+  margin: 0px;
+  text-align: center;
 }
 h1 {
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 p {
-  margin-top: 0px;
-  margin-left: 0px;
+  margin: 0px;
 }
 
 .dev {
