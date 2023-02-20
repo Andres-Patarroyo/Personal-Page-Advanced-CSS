@@ -4,8 +4,24 @@ the body, ie. if one of the squares were within a parent container/square, the a
 this is useful when trying to fine-tune the position of an element, as you can use both absolute and relative positioning to accurately 
 display your element*/
 
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
 .header {
   background-color: #11999e;
+  position: relative;
+  padding-top: 100px;
 }
 .top-container {
   background-color: red;
@@ -22,17 +38,14 @@ display your element*/
   height: 200px;
   width: 200px;
 }
-body {
-  margin: 0px;
-  text-align: center;
-}
-h1 {
-  margin: 0px;
-}
-p {
-  margin: 0px;
-}
-
 .dev {
   text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 70%;
+}
+.bot-cloud {
+  position: absolute;
 }
