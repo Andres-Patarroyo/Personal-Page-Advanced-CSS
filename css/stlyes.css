@@ -7,37 +7,43 @@ display your element*/
 body {
   margin: 0px;
   text-align: center;
-  font-family: sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 h1 {
   margin: 0px;
+  font-family: "Rancho", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
   margin: 0px;
+  font-family: "Raleway", sans-serif;
 }
 
-.header {
+.andres-and-luna {
+  width: 18%;
+}
+
+.top-container {
   background-color: #11999e;
   position: relative;
   padding-top: 100px;
 }
-.top-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+
+.middle-container {
 }
-.mid-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+
+.bottom-container {
 }
-.bot-container {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
-}
+
 .dev {
   text-decoration: underline;
 }
