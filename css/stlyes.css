@@ -4,6 +4,10 @@ the body, ie. if one of the squares were within a parent container/square, the a
 this is useful when trying to fine-tune the position of an element, as you can use both absolute and relative positioning to accurately 
 display your element*/
 
+/* rem is affected by the root ex. <html>, while em is affected by the parent <body> 
+
+        Both are relative and dynamic font sizes*/
+
 body {
   margin: 0px;
   text-align: center;
@@ -13,6 +17,7 @@ body {
 /* Font-size: 16px = 100% = 1em */
 h1 {
   font-size: 5.625rem;
+  font-weight: lighter;
   margin: 50px auto 0 auto;
   font-family: "Rancho", cursive;
 }
@@ -55,7 +60,7 @@ p {
 }
 .bot-cloud {
   position: absolute;
-/* }
-img {
+}
+/*img {
   float: left;
 } */
